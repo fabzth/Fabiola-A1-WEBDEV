@@ -1,0 +1,50 @@
+body { /* Styling for the body element */
+  font-family: Georgia, serif; /* Specify a fallback font */
+  margin: 20px; /* Margin around the body */
+  padding: 15px; /* Adding padding; specify units */
+  background-color: rgb(85, 134, 71); /* Background color */
+  color: rgb(249, 249, 249); /* Text color */
+}
+
+h1 { /* Styling for the header */
+  text-align: center; /* Center aligns the header text */
+  margin-top: 20px; /* Margin at the top of the header */
+}
+
+.image-container { /* Styling for the image container */
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with a minimum column width */
+  gap: 20px; /* Space between grid items */
+  justify-content: center; /* Center aligns the grid items */
+  margin-top: 20px; /* Margin above the container */
+}
+
+.image { /* Styling for images */
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintains aspect ratio */
+  filter: grayscale(50%); /* Applies grayscale filter */
+}
+
+.image-info { /* Styling for image information */
+  margin-top: 10px; /* Space above the image info */
+  text-align: center; /* Center aligns the text */
+}
+
+.button { /* Styling for buttons (links) */
+  display: inline-block; /* Allows the use of padding */
+  padding: 10px 20px; /* Padding inside the link/button */
+  font-size: 16px; /* Font size for the button text */
+  color: #aadbab; /* Initial text color */
+  text-decoration: none; /* Removes underline from the link */
+  transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+/* Change text color on hover */
+.button:hover {
+  color: #66f8ca; /* Lighter color on hover */
+}
+
+/* Change text color when the button is pressed (active state) */
+.button:active {
+  color: #82dc1c; /* Even lighter color when active */
+}

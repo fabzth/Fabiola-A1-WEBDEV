@@ -1,0 +1,50 @@
+body { /* Styles for the body of the web page */
+    font-family: Georgia, sans-serif; /* Sets the font to Georgia with sans-serif fallback */
+    margin: 0; /* Sets the margin of the web page to 0 pixels */
+    padding: 0; /* Sets the padding of the web page to 0 pixels */
+    background-color: rgb(187, 201, 180); /* Sets the background color of the whole web page */
+}
+
+.container { /* Styles for the container element */
+    max-width: 800px; /* Maximum width of the container is 800 pixels */
+    margin: 10px auto; /* Centers the container with 10 pixels margin at the top and bottom */
+    padding: 0 10px; /* Adds 0 height padding and 10 pixels of width padding */
+}
+
+nav ul { /* Styles for the navigation list */
+    list-style-type: none; /* Removes the bullet points from the list */
+    margin: 0; /* Sets the margin to 0 */
+    padding: 0; /* Sets the padding to 0 */
+}
+
+nav ul li { /* Styles for individual navigation items */
+    display: inline; /* Displays navigation items inline */
+    margin-right: 20px; /* Adds 20 pixels margin to the right of each item */
+}
+
+a { /* Styles for the default appearance of links */
+    color: rgb(7, 131, 36); /* Sets the link color to a dark green */
+    text-decoration: none; /* Removes the underline from the links */
+    padding: 10px; /* Adds 10 pixels padding around the link */
+}
+
+a:hover { /* Styles for the link effect on hover */
+    text-decoration: underline; /* Underlines the text when hovered */
+    color: rgb(40, 234, 66); /* Sets the color to a lighter green on hover */
+}
+
+.button { /* Styles for buttons */
+    display: inline-block; /* Displays the button inline with box characteristics */
+    padding: 10px 20px; /* Adds 10 pixels of height and 20 pixels of width padding */
+    background-color: rgb(37, 56, 3); /* Sets the button background color to dark olive green */
+    color: rgb(249, 248, 247); /* Sets the button text color to a light color */
+    border: none; /* Removes the button border */
+    border-radius: 5px; /* Rounds the corners of the button with a 5-pixel radius */
+    cursor: pointer; /* Changes the cursor to pointer, indicating the button is clickable */
+    text-decoration: none; /* Removes text decoration from the button */
+}
+
+.button:hover { /* Styles for the button on hover */
+    background-color: rgb(93, 165, 140); /* Changes background color to a lighter shade on hover */
+    color: rgb(3, 13, 13); /* Corrected: Sets the text color to a dark shade on hover */
+}

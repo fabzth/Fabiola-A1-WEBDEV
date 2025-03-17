@@ -1,0 +1,28 @@
+body, html { /* Styles applied to both the body and html elements */
+  background-color: #385342; /* Sets a dark green background color for the entire page */
+  height: 100%; /* Ensures the height of the html and body elements cover the entire viewport */
+  margin: 0; /* Removes default margin around the body */
+  display: flex; /* Uses flexbox layout for centering content */
+  justify-content: center; /* Centers content horizontally within the body */
+  align-items: center; /* Centers content vertically within the body */
+}
+
+video { /* Styles specifically for video elements */
+  max-width: 100%; /* Ensures the video does not overflow its container width */
+  max-height: 100%; /* Ensures the video does not exceed its container height */
+}
+
+.dog-image { /* Styles applied to images with the class "dog-image" */
+  height: 250px; /* Sets a fixed height for dog images */
+  width: 250px; /* Sets a fixed width for dog images */
+}
+
+.left { /* Styles for images with the class "left" */
+  float: right; /* Positions the image to the right of its container */
+  margin-right: 20px; /* Adds margin to the right to create space between images */
+}
+
+.right { /* Styles for images with the class "right" */
+  float: left; /* Positions the image to the left of its container */
+  margin-left: 20px; /* Adds margin to the left to create space between images */
+}

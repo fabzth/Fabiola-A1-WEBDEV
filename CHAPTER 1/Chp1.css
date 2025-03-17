@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(249, 249, 249); /* Sets the background color of the body to a soft grayish green */
+    color: rgb(72, 103, 77); /* Sets the default text color to a dark green */
+}
+
+#myheader { /* Styles specifically for the header with the ID 'myheader' */
+    background-color: rgb(75, 152, 77); /* Sets the background color of the header to a light green */
+    color: rgb(247, 252, 249); /* Sets the text color of the header to a darker green */
+    padding: 40px; /* Adds 40 pixels of padding around the content within the header */
+    text-align: center; /* Centers the text within the header */
+    margin: 0; /* Resets any default margin to prevent spacing issues */
+}

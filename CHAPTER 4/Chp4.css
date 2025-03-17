@@ -1,0 +1,89 @@
+/* Body Styles */
+body { 
+    font-family: "Arial", sans-serif; /* Sets the font for the body */
+    margin: 0; /* Eliminates the default margin */
+    padding: 0; /* Eliminates the default padding */
+}
+
+/* Container Styles */
+.container { 
+    width: 80%; /* Sets the container width to 80% of the viewport */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Header Styles */
+header { 
+    background-color: #17072b; /* Dark blue background for header */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding above and below the header */
+    text-align: center; /* Centers text */
+    text-decoration: underline; /* Underlines the header text */
+}
+
+/* Navigation Styles */
+nav { 
+    background-color: #172d67; /* Darker blue background for the navigation */
+    padding: 10px 0; /* Padding above and below the navigation */
+}
+
+nav ul { 
+    list-style-type: none; /* Removes bullet points from list */
+    margin: 0; /* Resets default margin */
+    padding: 0; /* Resets default padding */
+    text-align: center; /* Centers the navigation items */
+}
+
+nav ul li { 
+    display: inline; /* Displays list items inline */
+    margin-right: 20px; /* Space between each navigation item */
+}
+
+nav ul li a { 
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Main Content Styles */
+main { 
+    padding: 20px 0; /* Padding above and below the main content */
+    display: flex; /* Uses flexbox layout for main section */
+}
+
+/* Welcome Section Styles */
+#welcome { 
+    flex: 1; /* Takes up one part of the flex container */
+    margin-right: 20px; /* Margin to the right for spacing */
+    color: black; /* Black text color */
+}
+
+/* Lineup Section Styles */
+#lineup { 
+    flex: 1; /* Takes up one part of the flex container */
+    background-color: #172d67; /* Matches the navigation background */
+    color: #ffffff; /* White text color */
+    width: 30%; /* Sets a specific width */
+    padding: 20px; /* Padding inside the section */
+    margin-left: auto; /* Automatically adjusts left margin to center */
+}
+
+/* Lineup Header Styles */
+#lineup h2 { 
+    color: #ffffff; /* White text color for the second-level header */
+    text-decoration: underline; /* Underlines header */
+}
+
+/* Welcome Header Styles */
+#welcome h2 { 
+    color: black; /* Black text color for the second-level header */
+    text-decoration: underline; /* Underlines header */
+    font-size: 30px; /* Sets font size for the header */
+}
+
+/* Footer Styles */
+footer { 
+    background-color: #8c15e9; /* Bright purple background for the footer */
+    color: #ffffff; /* White text color */
+    padding: 10px 0; /* Padding above and below the footer */
+    text-align: center; /* Centers footer text */
+    font-size: 30px; /* Sets font size for footer text */
+}

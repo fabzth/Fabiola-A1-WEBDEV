@@ -1,0 +1,48 @@
+/* General div styles that apply to all frames */
+div { 
+  display: inline-block; /* Aligns elements horizontally */
+  font-family: sans-serif; /* Sets the font to sans serif */
+  font-size: 20px; /* Sets the size of the font */
+  margin: 25px; /* Adds a margin of 25 pixels around each element */
+  border: 4px solid black; /* Applies a solid black border of 4 pixels to each element */
+  line-height: 100px; /* Sets line height to about 100 pixels */
+  text-align: center; /* Centers text within the element */
+  width: 200px; /* Sets the width of each element to 200 pixels */
+  height: 200px; /* Sets the height of each element to 200 pixels */
+}
+
+/* Body styles */
+body { 
+  margin: 100px auto; /* Sets the top and bottom margin to 100 pixels, centers the body */
+  width: max-content; /* Makes the body width adjust to the content */
+}
+
+/* Frame A specific styles */
+.frameA { 
+  border: 4px solid rgb(156, 53, 182); /* Sets frame color using RGB */
+  box-shadow: 10px 10px 8px red; /* Applies a red shadow with specified offsets and blur */
+}
+
+/* Frame B specific styles */
+.frameB { 
+  border-color: chartreuse; /* Sets the border color for Frame B */
+  box-shadow: 10px 10px 8px black inset; /* Black inset shadow with specified offsets and blur */
+}
+
+/* Frame C specific styles */
+.frameC { 
+  border: 4px solid darkorange; /* Sets the border for Frame C */
+  border-radius: 25px; /* Rounds the corners of the border */
+  outline: 9px solid blue; /* Outlines the border with a solid blue color */
+  padding: 20px; /* Adds padding of 20 pixels inside the element */
+  box-shadow: 
+      0px 0px 0px 20px red, /* Outer shadow effect with red color and thickness */
+      0px 0px 0px 30px green; /* Another shadow effect with green color and thickness */
+  margin-bottom: 10px; /* Adds bottom margin of 10 pixels */
+}
+
+/* Frame D specific styles */
+.frameD { 
+  border-color: rgb(172, 7, 7); /* Sets the border color using RGB for Frame D */
+  text-shadow: 6px 6px; /* Applies a shadow to the text */
+}

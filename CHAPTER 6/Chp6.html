@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- This declaration defines the document type and version of HTML used. -->
+<html lang="en"> <!-- Sets the language attribute to English. -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding, allowing for special characters to be displayed correctly on the web page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This tag configures the viewport settings for mobile devices. -->
+    <title>Petrol Calculator</title> <!-- Specifies the title that appears in the browser tab for this web page. -->
+
+    <style> /* Embedding CSS within the style tags for layout and design */
+        /* Styles for the body of the web page */
+        body { 
+            font-family: Arial, sans-serif; /* Sets the font for the webpage */
+            background-color: #f4f4f4; /* Background color of the page */
+            text-align: center; /* Centers text within the body */
+            padding: 20px; /* Adds padding around the body content */
+        }
+        /* Styles for the container div element */
+        .container {
+            max-width: 400px; /* Sets the maximum width for the container */
+            margin: 0 auto; /* Centers the container horizontally */
+            background-color: #fff; /* Background color of the container */
+            padding: 20px; /* Adds padding inside the container */
+            border-radius: 8px; /* Rounds the corners of the container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect to the container */
+        }
+        /* Styles for the header */
+        h1 {
+            color: #343333; /* Text color for the header */
+        }
+        /* Styles for label elements */
+        label {
+            display: block; /* Displays labels as block elements */
+            margin: 10px 0; /* Adds margin above and below the labels */
+            font-weight: bold; /* Makes the labels bold */
+        }
+        /* Styles for number input fields */
+        input[type="number"] {
+            padding: 8px; /* Adds padding inside the input fields */
+            width: 100%; /* Makes the input fields full width */
+            border: 1px solid #ccc; /* Sets a light border around input fields */
+            border-radius: 4px; /* Rounds the corners of input fields */
+            text-align: center; /* Centers the text within the input fields */
+            transition: border-color 0.3s; /* Adds a transition effect for the border color */
+        }
+        /* Styles for focused number input fields */
+        input[type="number"]:focus {
+            border-color: #333; /* Changes border color when the input is focused */
+            outline: none; /* Removes the outline around the input */
+        }
+        /* Styles for the button */
+        button {
+            padding: 10px 20px; /* Adds padding inside the button */
+            background-color: #333; /* Sets the background color of the button */
+            color: white; /* Sets the text color of the button */
+            border: none; /* Removes the default button border */
+            border-radius: 4px; /* Rounds the corners of the button */
+            cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+            transition: background-color 0.3s; /* Adds a transition effect for the background color */
+        }
+        /* Styles for the button on hover */
+        button:hover {
+            background-color: #555; /* Changes background color when hovering */
+        }
+        /* Styles for the result paragraph */
+        #result {
+            font-size: 20px; /* Sets the font size for the result text */
+            margin-top: 20px; /* Adds margin above the result paragraph */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> <!-- Container div for styling purposes -->
+        <h1>Petrol Calculator</h1> <!-- Heading for the calculator -->
+        <label for="cost">Cost of Petrol per liter:</label> <!-- Label for inputting the petrol cost -->
+        <input type="number" id="cost" value="1.72"> <!-- Input field for the cost of petrol per liter -->
+        <label for="liters">Number of Liters Purchased:</label> <!-- Label for inputting the number of liters -->
+        <input type="number" id="liters" value="0"> <!-- Input field for the number of liters purchased -->
+        <button id="calculateBtn">Calculate Total Cost</button> <!-- Button to calculate and display the total cost -->
+        <p id="result"></p> <!-- Paragraph element to display the result of the total cost -->
+    </div>
+<script src="C:\Users\pater\OneDrive\Desktop\Web Prog\A1- WEB PROG\Chp6.js" type="text/javascript"></script> <!-- Link to the external JavaScript file for functionality -->
+</body>
+</html>
