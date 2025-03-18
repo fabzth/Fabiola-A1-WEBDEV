@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick Reference Guide</title>
+    <link rel="stylesheet" href="C:\Users\pater\OneDrive\Desktop\Web Prog\A1- WEB PROG\CHAPTER 1\Chp1Bonus.css"> <!-- Link to external stylesheet for styling -->
+</head>
+
+<body>
+    <header>
+        <h1>HTML & CSS Quick Reference Guide</h1> <!-- Main title of the guide -->
+        <h2>An overview of essential HTML tags and CSS properties</h2> <!-- Subtitle -->
+    </header>
+
+    <main>
+        <section>
+            <h3>HTML Tags</h3> <!-- Section heading for HTML tags -->
+            <article>
+                <h4>&lt;h1&gt; to &lt;h6&gt;</h4> <!-- Subheading for header tags -->
+                <p>Defines HTML headings. <code>&lt;h1&gt;</code> is the largest, and <code>&lt;h6&gt;</code> is the smallest.</p>
+                <pre><code>&lt;h1&gt;This is a Heading 1&lt;/h1&gt;</code></pre> <!-- Code example for h1 tag -->
+            </article>
+
+            <article>
+                <h4>&lt;p&gt;</h4> <!-- Subheading for paragraph tag -->
+                <p>Defines a paragraph.</p>
+                <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre> <!-- Code example for p tag -->
+            </article>
+
+            <article>
+                <h4>&lt;a&gt;</h4> <!-- Subheading for anchor (link) tag -->
+                <p>Defines a hyperlink. Use the <code>href</code> attribute to define the link's destination.</p>
+                <pre><code>&lt;a href="https://example.com"&gt;This is a link&lt;/a&gt;</code></pre> <!-- Code for an anchor tag -->
+            </article>
+
+            <article>
+                <h4>&lt;img&gt;</h4> <!-- Subheading for image tag -->
+                <p>Embeds an image. Use the <code>src</code> attribute to specify the image source.</p>
+                <pre><code>&lt;img src="image.jpg" alt="Image Description"&gt;</code></pre> <!-- Code for an image tag -->
+            </article>
+
+            <article>
+                <h4>&lt;ul&gt; and &lt;li&gt;</h4> <!-- Subheading for unordered list -->
+                <p>Defines an unordered list with list items.</p>
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt; <!-- List item -->
+    &lt;li&gt;Item 2&lt;/li&gt; <!-- List item -->
+&lt;/ul&gt;</code></pre> <!-- Code for unordered list -->
+            </article>
+
+            <article>
+                <h4>&lt;ol&gt; and &lt;li&gt;</h4> <!-- Subheading for ordered list -->
+                <p>Defines an ordered list.</p>
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt; <!-- List item -->
+    &lt;li&gt;Second item&lt;/li&gt; <!-- List item -->
+&lt;/ol&gt;</code></pre> <!-- Code for ordered list -->
+            </article>
+
+            <article>
+                <h4>&lt;div&gt;</h4> <!-- Subheading for div tag -->
+                <p>Defines a division or section in an HTML document.</p>
+                <pre><code>&lt;div&gt;This is a division&lt;/div&gt;</code></pre> <!-- Code for a div tag -->
+            </article>
+
+            <article>
+                <h4>&lt;span&gt;</h4> <!-- Subheading for span tag -->
+                <p>Defines a section in a document. It is used as an inline container.</p>
+                <pre><code>&lt;span&gt;This is a span&lt;/span&gt;</code></pre> <!-- Code for a span tag -->
+            </article>
+
+            <article>
+                <h4>&lt;table&gt;</h4> <!-- Subheading for table tag -->
+                <p>Creates a table. Use <code>&lt;tr&gt;</code> for rows, <code>&lt;td&gt;</code> for data cells, and <code>&lt;th&gt;</code> for headers.</p>
+                <pre><code>&lt;table&gt;
+    &lt;tr&gt; <!-- Start of a table row -->
+        &lt;th&gt;Header 1&lt;/th&gt; <!-- Table header cell -->
+        &lt;th&gt;Header 2&lt;/th&gt; <!-- Table header cell -->
+    &lt;/tr&gt; <!-- End of table row -->
+    &lt;tr&gt; <!-- Start of another row -->
+        &lt;td&gt;Data 1&lt;/td&gt; <!-- Table data cell -->
+        &lt;td&gt;Data 2&lt;/td&gt; <!-- Table data cell -->
+    &lt;/tr&gt; <!-- End of row -->
+&lt;/table&gt;</code></pre> <!-- Code for a table -->
+            </article>
+            
+            <article>
+                <h4>&lt;form&gt;</h4> <!-- Subheading for form tag -->
+                <p>Defines an HTML form for user input.</p>
+                <pre><code>&lt;form action="submit.php" method="post"&gt; <!-- Form setup -->
+    &lt;input type="text" name="name"&gt; <!-- Text input field -->
+    &lt;input type="submit" value="Submit"&gt; <!-- Submit button -->
+&lt;/form&gt;</code></pre> <!-- Code for a form -->
+            </article>
+        </section>
+
+        <section>
+            <h3>CSS Properties</h3> <!-- Section heading for CSS properties -->
+            <article>
+                <h4>color</h4> <!-- Subheading for color property -->
+                <p>Sets the color of text.</p>
+                <pre><code>p {
+    color: blue; <!-- Sets paragraph text color to blue -->
+}</code></pre> <!-- Code example for color property -->
+            </article>
+
+            <article>
+                <h4>background-color</h4> <!-- Subheading for background color property -->
+                <p>Sets the background color of an element.</p>
+                <pre><code>div {
+    background-color: #f0f0f0; <!-- Sets background color to light gray -->
+}</code></pre> <!-- Code example for background color -->
+            </article>
+
+            <article>
+                <h4>font-size</h4> <!-- Subheading for font size property -->
+                <p>Sets the size of the font.</p>
+                <pre><code>h1 {
+    font-size: 24px; <!-- Sets font size for h1 elements -->
+}</code></pre> <!-- Code for font size -->
+            </article>
+
+            <article>
+                <h4>margin</h4> <!-- Subheading for margin property -->
+                <p>Sets the margin space around an element.</p>
+                <pre><code>p {
+    margin: 10px; <!-- Sets margin to 10 pixels around paragraph -->
+}</code></pre> <!-- Code for margin -->
+            </article>
+
+            <article>
+                <h4>padding</h4> <!-- Subheading for padding property -->
+                <p>Sets the padding space inside an element.</p>
+                <pre><code>div {
+    padding: 15px; <!-- Sets padding to 15 pixels inside of div -->
+}</code></pre> <!-- Code for padding -->
+            </article>
+
+            <article>
+                <h4>border</h4> <!-- Subheading for border property -->
+                <p>Sets border around an element.</p>
+                <pre><code>img {
+    border: 2px solid black; <!-- Creates a solid black border around images -->
+}</code></pre> <!-- Code for border -->
+            </article>
+
+            <article>
+                <h4>text-align</h4> <!-- Subheading for text alignment property -->
+                <p>Sets the horizontal alignment of text.</p>
+                <pre><code>h2 {
+    text-align: center; <!-- Center aligns h2 text -->
+}</code></pre> <!-- Code for text alignment -->
+            </article>
+
+            <article>
+                <h4>display</h4> <!-- Subheading for display property -->
+                <p>Specifies the display behavior of an element.</p>
+                <pre><code>span {
+    display: inline-block; <!-- Changes span to behave like a block element -->
+}</code></pre> <!-- Code for display -->
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 HTML & CSS Reference Guide</p> <!-- Footer content -->
+    </footer>
+</body>
+
+</html>

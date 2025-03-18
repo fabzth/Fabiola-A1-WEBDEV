@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Set font family for the body */
+    background-color: #bfc7bc; /* Set light background color */
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add padding to body */
+    line-height: 1.6; /* Set line height for better readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #265127; /* Dark background color for header */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside header */
+    text-align: center; /* Center align text */
+    border-radius: 8px; /* Rounded corners for header */
+}
+
+/* Main Section Styles */
+main {
+    margin: 20px 0; /* Margin above and below the main content */
+}
+
+/* Section Header Styles */
+h3 {
+    color: #35424a; /* Dark grey color for section headings */
+    border-bottom: 2px solid #e5e5e5; /* Bottom border for emphasis */
+    padding-bottom: 10px; /* Padding below heading */
+}
+
+/* Article Styles */
+article {
+    background-color: #ffffff; /* White background for articles */
+    border: 1px solid #e5e5e5; /* Light grey border around articles */
+    border-radius: 5px; /* Rounded corners for articles */
+    padding: 15px; /* Padding inside article */
+    margin: 15px 0; /* Space between articles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Code Block Styles */
+code {
+    color: rgb(207, 215, 59); /* White text color */
+    background-color: #000000; /* Light grey background for code snippets */
+    padding: 4px 8px; /* Padding inside code block */
+    border-radius: 4px; /* Rounded corners for code block */
+}
+
+/* Preformatted Text Styles */
+pre {
+    background-color: #f4f4f4; /* Light grey background for preformatted text */
+    padding: 10px; /* Padding inside preformatted text block */
+    border: 1px solid #ccc; /* Border around preformatted text */
+    overflow-x: auto; /* Enable horizontal scrolling for long lines */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Padding inside footer */
+    margin-top: 20px; /* Space above footer */
+    color: #666; /* Grey text color for footer */
+}
