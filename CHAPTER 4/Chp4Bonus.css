@@ -1,0 +1,86 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Set a clean font for the page */
+    background-color: #f4f4f4; /* Light grey background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #1e4b18; /* Dark grey header */
+    color: white; /* White text for header */
+    padding: 10px 0; /* Padding for spacing */
+    text-align: center; /* Center-align header text */
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display menu items inline */
+    margin: 0 15px; /* Space out the menu items */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px; /* Padding around the main content */
+}
+
+/* Section Header Styles */
+h2 {
+    color: #35424a; /* Dark grey color for section headers */
+}
+
+/* Column Layout Styles */
+.column {
+    float: left; /* Allow columns to float next to each other */
+    width: 30%; /* Each column takes 30% of the width */
+    margin-right: 5%; /* Space between the columns */
+    background: #ffffff; /* White background for columns */
+    padding: 10px; /* Padding inside columns */
+    border-radius: 5px; /* Rounded corners for columns */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Article Styles */
+.item {
+    margin-bottom: 15px; /* Space between study items */
+}
+
+/* Button Styles */
+.button {
+    background-color: #35424a; /* Dark grey background */
+    color: white; /* White text for button */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center the button */
+    width: 200px; /* Fixed width for the button */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center-align footer text */
+    padding: 10px 0; /* Padding for spacing */
+    background-color: #114314; /* Dark grey footer */
+    color: white; /* White text for footer */
+    position: relative; /* Position relative for footer */
+    clear: both; /* Clear floating elements */
+}
+
+/* Clearfix for floated columns */
+.column:last-child {
+    margin-right: 0; /* Remove right margin for the last column */
+}
