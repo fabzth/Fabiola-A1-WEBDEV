@@ -1,0 +1,76 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Set font for the game */
+    background-color: #f0f0f0; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Centering the container */
+.container {
+    text-align: center; /* Center-align text inside the container */
+    margin-top: 50px; /* Add margin to the top */
+}
+
+/* Heading styles */
+h1 {
+    color: #333; /* Dark color for the title */
+}
+
+/* Styles for RGB value display */
+.rgb-value {
+    font-size: 24px; /* Increase font size for visibility */
+    margin: 20px 0; /* Add margin above and below */
+}
+
+/* Styles for option colors */
+.options {
+    display: flex; /* Arrange options in a row */
+    justify-content: center; /* Center the options */
+    margin: 20px 0; /* Add margin above and below */
+}
+
+/* Individual color options */
+.option {
+    width: 100px; /* Fixed width for each color option */
+    height: 100px; /* Fixed height for each color option */
+    margin: 0 10px; /* Space between color options */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 2px solid transparent; /* Set default border */
+    transition: border 0.3s; /* Smooth transition for border on hover */
+}
+
+/* Change border on hover */
+.option:hover {
+    border: 2px solid #333; /* Dark border on hover */
+}
+
+/* Styles for result display */
+.result {
+    font-size: 20px; /* Size for result message */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+/* Styles for lives display */
+.score {
+    font-size: 20px; /* Size for life display */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+/* Styles for replay button */
+#replay {
+    margin-top: 20px; /* Add margin to the top */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for button text */
+    border: none; /* Remove default border */
+    background-color: #007BFF; /* Blue background for button */
+    color: white; /* White text color */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth transition for background color on hover */
+}
+
+/* Button hover effect */
+#replay:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
